@@ -1,0 +1,53 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+
+.board-row {
+  display: flex;
+  border: 3px blue;
+  background-color: blue;
+  flex-direction: row;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.case {
+  width: 2cm;
+  height: 2cm;
+  margin: 0px;
+  padding: 0px;
+  border: 2px blue inset;
+  border-radius: 2cm;
+  background-color: white;
+  cursor: pointer;
+}
+
+#player1 {
+  background-color: red;
+}
+#player2 {
+  background-color: yellow;
+}
+
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-info {
+  margin-left: 20px;
+}
